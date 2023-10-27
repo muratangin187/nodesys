@@ -34,6 +34,11 @@ export default class Scene {
           if (isConsumed) {
             break;
           }
+        } else if (node.isHover !== -1) {
+          node.consumeEvent({
+            type: "mouseleave",
+            e: event.e,
+          });
         }
       }
     });

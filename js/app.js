@@ -15,10 +15,6 @@ const nodeData = {
       name: "input 1",
       type: "number",
     },
-    {
-      name: "input 2",
-      type: "string",
-    },
   ],
   outputs: [
     {
@@ -29,13 +25,21 @@ const nodeData = {
       name: "output 2",
       type: "string",
     },
+    {
+      name: "output 3",
+      type: "string",
+    },
+    {
+      name: "output 4",
+      type: "string",
+    },
   ],
 };
 
 const nodeData2 = {
   title: "Node 2",
   position: {
-    x: 210,
+    x: 310,
     y: 10,
   },
   inputs: [
@@ -47,15 +51,15 @@ const nodeData2 = {
       name: "input 2",
       type: "string",
     },
+    {
+      name: "input 3",
+      type: "string",
+    },
   ],
   outputs: [
     {
       name: "output 1",
       type: "number",
-    },
-    {
-      name: "output 2",
-      type: "string",
     },
   ],
 };
@@ -63,8 +67,8 @@ const nodeData2 = {
 const nodeData3 = {
   title: "Node 3",
   position: {
-    x: 410,
-    y: 10,
+    x: 150,
+    y: 300,
   },
   inputs: [
     {
